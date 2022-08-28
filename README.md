@@ -70,6 +70,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ### Tools and Required Packages
 - React App
+- Bootstrap
 
 ## Usage
 To display a portfolio of work, contact information, and biography for a web developer professional to share with other industry professionals for collaboration and/or hiring purposes.
