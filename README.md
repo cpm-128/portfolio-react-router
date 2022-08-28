@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# Portfolio Built With React
+<a href="#license"><img src="https://img.shields.io/badge/license-mit-informational"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+A portfolio of my web development works to share with fellow developers, collaborate on future projects, apply for jobs, and showcase for freelancing. This portfolio is built using React.
 
-## Available Scripts
+### User Story
+AS AN employer looking for candidates with experience building single-page applications,<br>
+I WANT to view a potential employee's deployed React portfolio of work samples<br>
+SO THAT I can assess whether they're a good candidate for an open position.
 
-In the project directory, you can run:
+## Table of Contents
+- <a href="#acceptance-criteria">Acceptance Criteria</a>
+- <a href="#installation">Installation</a>
+- <a href="#usage">Usage</a>
+- <a href="#mock-up">Mock-Up</a>
+- <a href="#deployed-application">Deployed Application</a>
+- <a href="contributors">Contributors</a>
+- <a href="#license">License</a>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Acceptance Criteria
+GIVEN a single-page application portfolio for a web developer . . .
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+WHEN I load the portfolio<br>
+THEN I am presented with a page containing a header, a section for content, and a footer
 
-### `npm test`
+WHEN I view the header<br>
+THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+WHEN I view the navigation titles<br>
+THEN I am presented with the titles:
+   - About Me
+   - Portfolio
+   - Contact
+   - Resume
+and the title corresponding to the current section is highlighted
 
-### `npm run build`
+WHEN I click on a navigation title<br>
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+WHEN I load the portfolio the first time<br>
+THEN the About Me title and section are selected by default
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+WHEN I am presented with the About Me section<br>
+THEN I see a recent photo or avatar of the developer and a short bio about them
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+WHEN I am presented with the Portfolio section<br>
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
 
-### `npm run eject`
+WHEN I am presented with the Contact section<br>
+THEN I see a contact form with fields for a name, an email address, and a message
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+WHEN I move my cursor out of one of the form fields without entering text<br>
+THEN I receive a notification that this field is required
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+WHEN I enter text into the email address field<br>
+THEN I receive a notification if I have entered an invalid email address
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+WHEN I am presented with the Resume section<br>
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+WHEN I view the footer<br>
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-## Learn More
+## Installation
+- Clone the directly from the GitHub repository to your local machine.
+- Run _npm init_ in the command line.
+- Run the command _npm start_ to launch the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Tools and Required Packages
+- React App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
+To display a portfolio of work, contact information, and biography for a web developer professional to share with other industry professionals for collaboration and/or hiring purposes.
 
-### Code Splitting
+## Mock-Up
+<img src="./src/assets/images/mockups/mockup.gif">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Deployed Application
+Deployed url: TBD<br>
+Repo url: https://github.com/cpm-128/portfolio-react
 
-### Analyzing the Bundle Size
+### Screencapture
+<img src="">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributors
+Colleen Maher
 
-### Making a Progressive Web App
+### Author
+Colleen Maher is a front-end web developer with a background in marketing, operations, and project management.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Trained at UNC Chapel Hill to earn a Professional Certificate in full-stack web development. Newly developed skills include JavaScript, managing databases, responsive web design, and following the Model-View-Controller paradigm. I am an organized and detail-oriented coder wanting to create and contribute to improved user-experiences and database management in an increasingly digital world. Strengths in creativity, teamwork, and building projects from ideation to execution.
 
-### Advanced Configuration
+<a href="https://gist.github.com/cpm-128" target="_blank">GitHub Profile</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
+MIT License
 
-### Deployment
+Copyright (c) [2022] [Colleen Maher]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
