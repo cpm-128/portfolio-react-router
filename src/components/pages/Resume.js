@@ -3,10 +3,26 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Resume() {
 
+    const [frontEndProficiencies] = useState([
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'jQuery',
+        'Responsive Design',
+        'React',
+        'Bootstrap'
+    ])
+
     const [backendProficiencies] = useState([
         'APIs',
         'Node',
-        'Express'
+        'Express',
+        'MySQL',
+        'Sequelize',
+        'MongoDB',
+        'Mongoose',
+        'REST',
+        'GraphQL'
     ])
 
     return (
@@ -20,13 +36,10 @@ function Resume() {
 
             <h2>Front-end Proficiencies</h2>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>Responsive Design</li>
-                    <li>React</li>
-                    <li>Bootstrap</li>
+                    {/* as we go through the frontendProficiencies array, we are naming each individual item 'proficiency' */}
+                    {frontEndProficiencies.map((proficiency, i) => (
+                        <li>{frontEndProficiencies[i]}</li>
+                    ))}
                 </ul>
 
             <h2>Back-end Proficiencies</h2>
