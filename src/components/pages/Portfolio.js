@@ -92,7 +92,7 @@ function Portfolio() {
                     <div>
                         <img
                             className='card-img-top'
-                            src={`../../assets/images/projects/${project.image}`}
+                            src={`../../assets/images/projects/${[i]}.jpg`}
                             alt={`Screencapture of ${project.title} application.`}
                         />
                         <div className='card-body'>
