@@ -21,7 +21,7 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!errorMessage) {
-            console.log('>> formState in handleSubmit >> ', formState)
+            //console.log('>> formState in handleSubmit >> ', formState)
         }
         //TODO: project scope is only for frontend. Add backend for functionality ;; consider emailjs
         alert('Message not sent. Please email cmaher1120@gmail.com directly or click the email icon in the footer.')
@@ -49,11 +49,10 @@ function Contact() {
         // spreadoperator to retain the other key-value pairs in the object only IF validations are success
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
-            console.log('>> handleForm formState >> ', formState)
+            //console.log('>> handleForm formState >> ', formState)
         }
     };
-    // TODO: comment out after testing
-    console.log('>> errorMessage if exists >> ', errorMessage)
+    //console.log('>> errorMessage if exists >> ', errorMessage)
 
     // display the form on the vdom
     return (
@@ -88,9 +87,6 @@ function Contact() {
             </form>
 
         </section>
-        // Contact form with name, email, message
-        // all fields required, notification if empty
-        // email validation
     );
 };
 
