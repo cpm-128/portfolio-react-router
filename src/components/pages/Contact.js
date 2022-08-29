@@ -63,19 +63,19 @@ function Contact() {
             <form id='contact-form' onSubmit={handleSubmit}>
                 {/* name input, required */}
                 <div>
-                    <label htmlFor='name'>Name: </label>
+                    <label htmlFor='name'>Name: </label><br />
                     <input type='text' name='name' defaultValue={name} onBlur={handleChange}></input>
-                </div>
+                </div><br />
                 {/* email input, required, validation */}
                 <div>
-                    <label htmlFor='email'>Email address: </label>
+                    <label htmlFor='email'>Email address: </label><br />
                     <input type='email' name='email' defaultValue={email} onBlur={handleChange}></input>
-                </div>
+                </div><br />
                 {/* message text area, required */}
                 <div>
-                    <label htmlFor='message'>Message: </label>
+                    <label htmlFor='message'>Message: </label><br />
                     <textarea name='message' rows='2' defaultValue={message} onBlur={handleChange}></textarea>
-                </div>
+                </div><br />
                 {/* error message only IF validations fail */}
                 {errorMessage && (
                     <div>
