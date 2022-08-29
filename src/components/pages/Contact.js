@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { validateEmail } from '../../utils/helpers';
+import React, { useState } from 'react';
+import { validateEmail, capitalizeFirstLetter } from '../../utils/helpers';
 
 function Contact() {
 
@@ -15,9 +15,20 @@ function Contact() {
 
     // hook to define error messages
     const [errorMessage, setErrorMessage] = useState('');
+    const { name, email, message } = formState;
+
+    // submit the form data
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if (!errorMessage) {
+            console.log('>> formState in handleSubmit >> ', formState)
+        }
+        //TODO: project scope is only for frontend. Add backend for functionality ;; consider emailjs
+        alert('Message not sent. Please email cmaher1120@gmail.com directly or click the email icon in the footer.')
+    };
 
     // sync internal state of comopnent formState with the user input from the vdom
-    function handleChange(e) {
+    const handleChange = (e) => {
         // validate email before syncing
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
@@ -25,29 +36,24 @@ function Contact() {
             if (!isValid) {
                 setErrorMessage('Invalid email address.');
             } else {
-                // require all fields after email validation and before syncing
-                if (!e.target.value.length) {
-                    setErrorMessage(`{e.target.name} is required.`);
-                } else {
-                    setErrorMessage('');
-                }
+                setErrorMessage('');
+            }
+        } else {
+            // validate lengths of all fields
+            if (!e.target.value.length) {
+                setErrorMessage(capitalizeFirstLetter(`${e.target.name} is required.`));
+            } else {
+                setErrorMessage('');
             }
         }
         // spreadoperator to retain the other key-value pairs in the object only IF validations are success
         if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value })
+            setFormState({ ...formState, [e.target.name]: e.target.value });
+            console.log('>> handleForm formState >> ', formState)
         }
-    }
-    // // TODO: comment out after testing
-    // console.log('>> formState >> ', formState)
-    // console.log('>> errorMessage if exists >> ', errorMessage)
-
-    // submit the form data
-    function handleSubmit(e) {
-        e.preventDefault();
-        console.log('>> formState in handleSubmit >> ', formState)
-        //TODO: project scope is only for frontend. Add backend for functionality.
-    }
+    };
+    // TODO: comment out after testing
+    console.log('>> errorMessage if exists >> ', errorMessage)
 
     // display the form on the vdom
     return (
@@ -59,17 +65,17 @@ function Contact() {
                 {/* name input, required */}
                 <div>
                     <label htmlFor='name'>Name: </label>
-                    <input type='text' name='name' defaultValue={formState.name} onBlur={handleChange}></input>
+                    <input type='text' name='name' defaultValue={name} onBlur={handleChange}></input>
                 </div>
                 {/* email input, required, validation */}
                 <div>
                     <label htmlFor='email'>Email address: </label>
-                    <input type='email' name='email' defaultValue={formState.email} onBlur={handleChange}></input>
+                    <input type='email' name='email' defaultValue={email} onBlur={handleChange}></input>
                 </div>
                 {/* message text area, required */}
                 <div>
                     <label htmlFor='message'>Message: </label>
-                    <textarea name='message' rows='2' defaultValue={formState.message} onBlur={handleChange}></textarea>
+                    <textarea name='message' rows='2' defaultValue={message} onBlur={handleChange}></textarea>
                 </div>
                 {/* error message only IF validations fail */}
                 {errorMessage && (
@@ -85,7 +91,7 @@ function Contact() {
         // Contact form with name, email, message
         // all fields required, notification if empty
         // email validation
-    )
+    );
 };
 
 export default Contact;
