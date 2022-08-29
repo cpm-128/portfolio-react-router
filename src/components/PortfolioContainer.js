@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Footer from './Footer';
 import About from './pages/About';
-// import Portfolio from './pages/Portfolio';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
@@ -16,7 +16,7 @@ function PortfolioContainer() {
     const Page = () => {
         switch (currentPage) {
             case 'About': return <About />
-            // case 'Portfolio': return <Portfolio />
+            case 'Portfolio': return <Portfolio />
             case 'Contact': return <Contact />
             case 'Resume': return <Resume />
         }
