@@ -5,6 +5,8 @@ import emailIcon from './../assets/images/logos/email-icon.png';
 
 function Footer() {
     return(
+        <footer>
+
         <div className=
             'text-white bg-dark d-flex flex-row'>
 
@@ -30,6 +32,10 @@ function Footer() {
             </div>
 
         </div>
+
+        <p className='text-white bg-dark'>&copy;2022 by Colleen Maher</p>
+
+        </footer>
     )
 };
 

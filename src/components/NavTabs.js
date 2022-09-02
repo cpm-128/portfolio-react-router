@@ -2,6 +2,8 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
+        <nav>
+
         <ul className='nav nav-tabs'>
 
             {/* ABOUT */}
@@ -57,6 +59,8 @@ function NavTabs({ currentPage, handlePageChange }) {
             </li>
 
         </ul>
+
+        </nav>
     )
 };
 

@@ -1,7 +1,111 @@
-/* create a test style comp here, */
-/* link to this file in index.js */
-/* add the test style to the app to confirm connection */
+/* custom css file, overwrote the standard create-react-app css file */
+
+:root {
+    --primary: rgb(32,85,107);
+    --secondary: rgb(195,193,186);
+    --tertiary: rgb(178,199,198);
+    --light: #ffffff;
+    --dark: #000000;
+    --border-radius: 4px;
+    --spacing-one: calc(1rem * 0.25);
+    --spacing-two: calc(1rem * 0.5);
+    --spacing-three: 1rem;
+    --spacing-four: calc(1rem * 1.5);
+    --spacing-five: calc(1rem * 3);
+    --heading-font: 'Josefin Sans', sans-serif;
+    --heading-font-weight: 600;
+    --paragraph-font: 'Josefin Sans', sans-serif;
+    --light-font: 'Josefin Sans', sans-serif;
+    --light-font-weight: 300;
+  }
+
+html,
+body {
+  min-height: 100%;
+}
 
 .test {
     color: red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--paragraph-font);
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 20px;
+    color: var(--dark);
+    background-color: var(--light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-weight: var(--heading-font-weight);
+  margin: 5px 0;
+  line-height: 1.25;
+  color: var(--primary);
+}
+
+h1 {
+  font-size: 2.25rem;
+  color: var(--light);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+footer {
+  font-family: var(--light-font);
+  font-weight: var(--light-font-weight)
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    justify-content: center;
+}
+
+nav a {
+    padding: 6px 10px;
+    margin: 0 15px;
+    transition: all 0.2s;
+    color: var(--light);
+}
+
+nav a:hover {
+    color: var(--light);
+    background-color: var(--secondary);
+    border-radius: var(--border-radius);
 }
