@@ -1,0 +1,7 @@
+/* create a test style comp here, */
+/* link to this file in index.js */
+/* add the test style to the app to confirm connection */
+
+.test {
+    color: red;
+}
