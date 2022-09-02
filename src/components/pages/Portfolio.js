@@ -14,6 +14,14 @@ function Portfolio() {
             repo: 'https://github.com/cpm-128/local-music-scene'
         },
         {
+            title: 'Deep Thoughts',
+            type: 'MERN',
+            image: require('../../assets/images/projects/deep-thoughts.png'),
+            description: 'A multipage social media application built using the MERN stack.',
+            deployed: 'https://murmuring-bastion-58732.herokuapp.com/',
+            repo: 'https://github.com/cpm-128/deep-thoughts'
+        },
+        {
             title: 'Investment Portfolio',
             type: 'full stack team project',
             image: require('../../assets/images/projects/investment-portfolio-dashboard.png'),
