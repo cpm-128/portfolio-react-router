@@ -58,7 +58,7 @@ function Contact() {
     return (
         <section>
 
-            <h1>CONTACT</h1>
+            <h2>CONTACT</h2>
 
             <form id='contact-form' onSubmit={handleSubmit}>
                 {/* name input, required */}

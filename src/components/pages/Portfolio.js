@@ -98,7 +98,7 @@ function Portfolio() {
     return (
         <section>
 
-            <h1>PORTFOLIO</h1>
+            <h2>PORTFOLIO</h2>
 
             {/* flex parent container */}
             <div className='d-flex flex-row flex-wrap justify-content-around align-self-stretch'>

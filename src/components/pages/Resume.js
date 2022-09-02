@@ -28,7 +28,7 @@ function Resume() {
     return (
         <section>
 
-            <h1>RESUME</h1>
+            <h2>RESUME</h2>
 
             <a href='https://docs.google.com/document/d/1Os-AhB34JOiGA0scCg0NLdAz1jedzayccGXgS6Q7OGI/edit?usp=sharing' target='_blank'>
                 <button>Download technical resume</button>
