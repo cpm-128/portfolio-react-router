@@ -65,7 +65,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Installation
 - Clone the directly from the GitHub repository to your local machine.
-- Run _npm init_ in the command line.
+- Run _npm i_ in the command line.
 - Run the command _npm start_ to launch the application.
 
 ### Tools and Required Packages
@@ -79,11 +79,15 @@ To display a portfolio of work, contact information, and biography for a web dev
 <img src="./src/assets/images/mockups/mockup.gif">
 
 ## Deployed Application
-Deployed url: TBD<br>
-Repo url: https://github.com/cpm-128/portfolio-react
+Deployed url: <a href='https://cpm-128.github.io/portfolio-react/' target='_blank'>https://cpm-128.github.io/portfolio-react/</a><br>
+Repo url: <a href='https://github.com/cpm-128/portfolio-react' target='_blank'>https://github.com/cpm-128/portfolio-react</a>
 
 ### Screencapture
-<img src="">
+About homepage<br>
+<img src='./src/assets/images/deployed/ABOUT_react-portfolio.png'>
+
+Portfolio page component<br>
+<img src='./src/assets/images/deployed/PORTFOLIO_react-portfolio.png.png'>
 
 ## Contributors
 Colleen Maher
