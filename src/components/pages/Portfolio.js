@@ -96,16 +96,16 @@ function Portfolio() {
     ])
 
     return (
-        <section>
+        <section className='padding-standard padding-leftright'>
 
-            <h2>PORTFOLIO</h2>
+            <h2 className='padding-top-20px'>PORTFOLIO</h2>
 
             {/* flex parent container */}
-            <div className='d-flex flex-row flex-wrap justify-content-around align-self-stretch'>
+            <div className='d-flex flex-row flex-wrap justify-content-around align-self-stretch col-12'>
 
                 {/* flex children, project cards */}
                 {projects.map((project, i) => (
-                <div className='card p-2' style={{width: '18rem'}}>
+                <div className='card p-2 col-12 col-md-4' style={{width: '18rem'}}>
                     <div>
                         <img
                             className='card-img-top'
@@ -114,7 +114,7 @@ function Portfolio() {
                             key={project.title}
                         />
                         <div className='card-body'>
-                            <h5 className='card-title'>{project.title}</h5>
+                            <h4 className='card-title'>{project.title}</h4>
                             <h6>{allUpper(project.type)}</h6>
                             <p className='card-text'>{project.description}</p>
                             <a href={project.deployed} className='card-link' target='_blank' rel='noopener noreferrer'>Deployed app</a>
