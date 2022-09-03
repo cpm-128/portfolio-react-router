@@ -163,10 +163,14 @@ nav {
 }
 
 .resume-btn {
-    background-color: var(--tertiary);
+    background-color: var(--primary);
     border-radius: var(--border-radius);
     color: var(--light);
     padding: 5px 15px;
+}
+
+.resume-btn:hover {
+    background-color: var(--secondary);
 }
 
 #contact-form {
@@ -174,11 +178,15 @@ nav {
 }
 
 #contact-form button {
-    background-color: var(--tertiary);
+    background-color: var(--primary);
     border-radius: var(--border-radius);
     color: var(--light);
     padding: 5px 50px;
     margin-bottom: 50px;
+}
+
+#contact-form button:hover {
+    background-color: var(--secondary);
 }
 
 .card {
