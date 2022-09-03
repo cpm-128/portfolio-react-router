@@ -56,25 +56,25 @@ function Contact() {
 
     // display the form on the vdom
     return (
-        <section>
+        <section className='padding-standard padding-leftright'>
 
-            <h2>CONTACT</h2>
+            <h2 className='padding-top-20px'>CONTACT</h2>
 
             <form id='contact-form' onSubmit={handleSubmit}>
                 {/* name input, required */}
                 <div>
                     <label htmlFor='name'>Name: </label><br />
-                    <input type='text' name='name' defaultValue={name} onBlur={handleChange}></input>
+                    <input type='text' name='name' defaultValue={name}  className='form-control' onBlur={handleChange}></input>
                 </div><br />
                 {/* email input, required, validation */}
                 <div>
                     <label htmlFor='email'>Email address: </label><br />
-                    <input type='email' name='email' defaultValue={email} onBlur={handleChange}></input>
+                    <input type='email' name='email' defaultValue={email}  className='form-control' onBlur={handleChange}></input>
                 </div><br />
                 {/* message text area, required */}
                 <div>
                     <label htmlFor='message'>Message: </label><br />
-                    <textarea name='message' rows='2' defaultValue={message} onBlur={handleChange}></textarea>
+                    <textarea name='message' rows='4' className='form-control' defaultValue={message} onBlur={handleChange}></textarea>
                 </div><br />
                 {/* error message only IF validations fail */}
                 {errorMessage && (

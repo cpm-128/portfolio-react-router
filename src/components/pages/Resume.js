@@ -26,7 +26,7 @@ function Resume() {
     ])
 
     return (
-        <section className='padding-standard'>
+        <section className='padding-standard padding-leftright'>
 
             <h2 className='padding-top-20px'>RESUME</h2>
 

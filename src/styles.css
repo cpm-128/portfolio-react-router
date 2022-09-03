@@ -136,6 +136,10 @@ nav {
     padding: 5px;
 }
 
+.padding-leftright {
+    padding: 0 25px;
+}
+
 .padding-top-20px {
     padding: 20px 0 0 0;
 }
@@ -153,4 +157,16 @@ nav {
     border-radius: var(--border-radius);
     color: var(--light);
     padding: 5px 15px;
+}
+
+#contact-form {
+    width: 75%;
+}
+
+#contact-form button {
+    background-color: var(--tertiary);
+    border-radius: var(--border-radius);
+    color: var(--light);
+    padding: 5px 50px;
+    margin-bottom: 50px;
 }
