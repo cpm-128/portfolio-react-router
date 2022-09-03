@@ -64,19 +64,19 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75rem;
-}
-
-h4 {
   font-size: 1.5rem;
 }
 
-h5 {
+h4 {
   font-size: 1.25rem;
 }
 
-h6 {
+h5 {
   font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.75rem;
 }
 
 p {
@@ -124,6 +124,14 @@ nav {
     background-color: var(--primary);
 }
 
+.bg-color-secondary {
+    background-color: var(--secondary);
+}
+
+.bg-color-tertiary {
+    background-color: var(--tertiary);
+}
+
 .padding-standard {
     padding: 5px;
 }
@@ -138,4 +146,11 @@ nav {
 
 .light-font-weight {
     font-weight: var(--light-font-weight);
+}
+
+.resume-btn {
+    background-color: var(--tertiary);
+    border-radius: var(--border-radius);
+    color: var(--light);
+    padding: 5px 15px;
 }

@@ -26,15 +26,15 @@ function Resume() {
     ])
 
     return (
-        <section>
+        <section className='padding-standard'>
 
-            <h2>RESUME</h2>
+            <h2 className='padding-top-20px'>RESUME</h2>
 
             <a href='https://docs.google.com/document/d/1Os-AhB34JOiGA0scCg0NLdAz1jedzayccGXgS6Q7OGI/edit?usp=sharing' target='_blank'>
-                <button>Download technical resume</button>
+                <button className='resume-btn'>Download technical resume</button>
             </a>
 
-            <h2>Front-end Proficiencies</h2>
+            <h3 className='padding-top-20px'>Front-end Proficiencies</h3>
                 <ul>
                     {/* as we go through the frontendProficiencies array, we are naming each individual item 'proficiency' */}
                     {frontEndProficiencies.map((proficiency, i) => (
@@ -42,7 +42,7 @@ function Resume() {
                     ))}
                 </ul>
 
-            <h2>Back-end Proficiencies</h2>
+            <h3>Back-end Proficiencies</h3>
                 <ul>
                     {/* as we go through the backendProficiencies array, we are naming each individual item 'proficiency' */}
                     {backendProficiencies.map((proficiency, i) => (
