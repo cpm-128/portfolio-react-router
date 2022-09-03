@@ -188,3 +188,8 @@ nav {
     background-color: var(--secondary);
     color: var(--primary);
 }
+
+.social-icon img:hover {
+    background-color: var(--secondary);
+    border-radius: 50px;
+}

@@ -10,21 +10,21 @@ function Footer() {
         <div className='d-flex flex-row justify-content-center'>
 
             {/* GITHUB */}
-            <div className='p-2'>
+            <div className='p-2 social-icon'>
                 <a href='https://github.com/cpm-128' target='_blank' rel='noopener noreferrer'>
                     <img src={githubLogo} alt='GitHub logo linked to profile' />
                 </a>
             </div>
 
             {/* LINKEDIN */}
-            <div className='p-2'>
+            <div className='p-2 social-icon'>
                 <a href='https://www.linkedin.com/in/colleenmaher/' target='_blank' rel='noopener noreferrer'>
                     <img src={linkedinLogo} alt='LinkedIn logo linked to profile' />
                 </a>
             </div>
 
             {/* EMAIL */}
-            <div className='p-2'>
+            <div className='p-2 social-icon'>
                 <a href='mailto:cmaher1120@gmail.com' target='_blank' rel='noopener noreferrer'>
                     <img src={emailIcon} alt='Email icon' />
                 </a>
