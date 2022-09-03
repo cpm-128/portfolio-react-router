@@ -20,13 +20,14 @@ function PortfolioContainer() {
             case 'Portfolio': return <Portfolio />
             case 'Contact': return <Contact />
             case 'Resume': return <Resume />
+            default : return <About />
         }
     }
 
     const handlePageChange = (page) =>setCurrentPage(page);
 
     return (
-        <div>
+        <div className='portfolio-container'>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             <Header />
             <Page />
