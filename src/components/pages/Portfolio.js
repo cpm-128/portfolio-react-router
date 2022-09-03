@@ -101,7 +101,7 @@ function Portfolio() {
             <h2 className='padding-top-20px'>PORTFOLIO</h2>
 
             {/* flex parent container */}
-            <div className='d-flex flex-row flex-wrap justify-content-around align-self-stretch col-12'>
+            <div className='d-flex flex-row flex-wrap align-self-stretch col-12'>
 
                 {/* flex children, project cards */}
                 {projects.map((project, i) => (

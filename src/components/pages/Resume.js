@@ -34,21 +34,32 @@ function Resume() {
                 <button className='resume-btn'>Download technical resume</button>
             </a>
 
-            <h3 className='padding-top-20px'>Front-end Proficiencies</h3>
-                <ul>
-                    {/* as we go through the frontendProficiencies array, we are naming each individual item 'proficiency' */}
-                    {frontEndProficiencies.map((proficiency, i) => (
-                        <li>{frontEndProficiencies[i]}</li>
-                    ))}
-                </ul>
+            {/* flex parent container */}
+            <div className='d-flex flex-row flex-wrap justify-content-start align-self-stretch col-12 padding-top-20px'>
 
-            <h3>Back-end Proficiencies</h3>
-                <ul>
-                    {/* as we go through the backendProficiencies array, we are naming each individual item 'proficiency' */}
-                    {backendProficiencies.map((proficiency, i) => (
-                        <li>{backendProficiencies[i]}</li>
-                    ))}
-                </ul>
+                {/* child left */}
+                <div className='col-12 col-md-3'>
+                    <h3>Front-end Proficiencies</h3>
+                    <ul>
+                        {/* as we go through the frontendProficiencies array, we are naming each individual item 'proficiency' */}
+                        {frontEndProficiencies.map((proficiency, i) => (
+                            <li>{frontEndProficiencies[i]}</li>
+                        ))}
+                    </ul>
+                </div>
+
+                {/* child right */}
+                <div className='col-12 col-md-3'>
+                    <h3>Back-end Proficiencies</h3>
+                    <ul>
+                        {/* as we go through the backendProficiencies array, we are naming each individual item 'proficiency' */}
+                        {backendProficiencies.map((proficiency, i) => (
+                            <li>{backendProficiencies[i]}</li>
+                        ))}
+                    </ul>
+                    </div>
+
+            </div>
 
         </section>
     )
