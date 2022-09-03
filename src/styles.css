@@ -98,13 +98,17 @@ a {
 nav {
     width: 100%;
     justify-content: center;
+    padding-top: 10px;
+    background-color: var(--primary);
 }
 
 .nav a {
     padding: 10px 20px 5px 20px;
     margin: 0 15px;
     transition: all 0.2s;
-    color: var(--primary);
+    background-color: var(--secondary);
+    color: var(--light);
+    border-radius: var(--border-radius);
 }
 
 .nav a:hover {
@@ -143,6 +147,11 @@ nav {
 
 .padding-top-20px {
     padding: 20px 0 0 0;
+}
+
+.padding-top-0 {
+    padding-top: 0;
+    margin-top: -7px;
 }
 
 .font-size-p {

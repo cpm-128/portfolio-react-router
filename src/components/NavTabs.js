@@ -4,7 +4,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     return (
         <nav>
 
-        <ul className='nav nav-tabs'>
+        <ul className='nav nav-tabs bg-color-primary'>
 
             {/* ABOUT */}
             <li className='nav-item'>
