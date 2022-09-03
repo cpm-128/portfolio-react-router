@@ -123,7 +123,7 @@ nav {
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
-    padding: 350px 50px 200px 200px;
+    padding: 300px 50px 200px 200px;
     display: flex;
     flex-wrap: wrap;
     justify-items: flex-end;
@@ -239,4 +239,13 @@ nav {
 .social-icon img:hover {
     background-color: var(--secondary);
     border-radius: 50px;
+}
+
+.about {
+    padding: 40px 0;
+    font-size: 2ren;
+}
+
+.font-size-1halfrem {
+    font-size: 1.45rem;
 }
