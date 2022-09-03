@@ -5,35 +5,34 @@ import emailIcon from './../assets/images/logos/email-icon.png';
 
 function Footer() {
     return(
-        <footer>
+        <footer className='text-white bg-color-primary mt-auto padding-top-20px'>
 
-        <div className=
-            'text-white bg-dark d-flex flex-row'>
+        <div className='d-flex flex-row justify-content-center'>
 
             {/* GITHUB */}
             <div className='p-2'>
-                <a href='https://github.com/cpm-128'>
+                <a href='https://github.com/cpm-128' target='_blank' rel='noopener noreferrer'>
                     <img src={githubLogo} alt='GitHub logo linked to profile' />
                 </a>
             </div>
 
             {/* LINKEDIN */}
             <div className='p-2'>
-                <a href='https://www.linkedin.com/in/colleenmaher/'>
+                <a href='https://www.linkedin.com/in/colleenmaher/' target='_blank' rel='noopener noreferrer'>
                     <img src={linkedinLogo} alt='LinkedIn logo linked to profile' />
                 </a>
             </div>
 
             {/* EMAIL */}
             <div className='p-2'>
-                <a href='mailto:cmaher1120@gmail.com'>
+                <a href='mailto:cmaher1120@gmail.com' target='_blank' rel='noopener noreferrer'>
                     <img src={emailIcon} alt='Email icon' />
                 </a>
             </div>
 
         </div>
 
-        <p className='text-white bg-dark'>&copy;2022 by Colleen Maher</p>
+        <p className='d-flex flex-row justify-content-center'>&copy;2022 by Colleen Maher</p>
 
         </footer>
     )

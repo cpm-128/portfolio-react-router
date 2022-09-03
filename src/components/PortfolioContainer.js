@@ -27,7 +27,7 @@ function PortfolioContainer() {
     const handlePageChange = (page) =>setCurrentPage(page);
 
     return (
-        <div className='portfolio-container'>
+        <div className='portfolio-container d-flex flex-column min-vh-100'>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             <Header />
             <Page />
