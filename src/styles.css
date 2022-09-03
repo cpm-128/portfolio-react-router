@@ -99,14 +99,14 @@ nav {
     justify-content: center;
 }
 
-nav a {
-    padding: 6px 10px;
+.nav a {
+    padding: 10px 20px 5px 20px;
     margin: 0 15px;
     transition: all 0.2s;
-    color: var(--light);
+    color: var(--primary);
 }
 
-nav a:hover {
+.nav a:hover {
     color: var(--light);
     background-color: var(--secondary);
     border-radius: var(--border-radius);
