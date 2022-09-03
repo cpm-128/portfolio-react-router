@@ -1,17 +1,17 @@
 import React from 'react';
-import headshot from '../../assets/images/headshot/funshot_small.jpg';
+// import headshot from '../../assets/images/headshot/funshot_small.jpg';
 
 function About() {
     return (
-        <div>
+        <div className='padding-top-0 '>
 
             {/* headshot or avatar */}
 
             {/* short bio */}
-            <section>
+            <section className='hero'>
                 <h2>Hi, I'm Colleen. <br/>
                 <span>I'm a full-stack web developer.</span></h2>
-                <img src={headshot} alt='headshot' style={{ width: '50%' }} />
+                {/* <img src={headshot} alt='headshot' style={{ width: '50%' }} /> */}
             </section>
 
             <section>
