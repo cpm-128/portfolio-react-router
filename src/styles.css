@@ -130,6 +130,10 @@ nav {
     height: 80vh;
 }
 
+.hero-cycling-bg-img {
+    background-image: url('./assets/images/headshot/colleen-maher_cycling.jpg');
+}
+
 .hero h2 {
     font-family: var(--heading-font);
     font-weight: 1000;
