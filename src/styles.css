@@ -179,6 +179,11 @@ nav {
     padding: 5px;
 }
 
+.padding-left-header {
+    padding: 0 0 0 10px;
+    background-color: var(--primary);
+}
+
 .padding-leftright {
     padding: 0 25px;
 }
