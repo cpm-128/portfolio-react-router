@@ -6,6 +6,14 @@ function Portfolio() {
 
     const [projects] = useState([
         {
+            title: 'Hand Me Up',
+            type: 'MERN Multi-Page App',
+            image: require('../../assets/images/projects/hand-me-up.png'),
+            description: 'A scalable, user-focused MERN application with a robust back-end and mobile-first front-end designed. Built with a team from ideation to deployment.',
+            deployed: 'https://polar-chamber-11415.herokuapp.com/',
+            repo: 'https://github.com/olivelliott/hand-me-up'
+        },
+        {
             title: 'Local Music Scene',
             type: 'full stack application',
             image: require('../../assets/images/projects/local-music-scene.jpg'),
