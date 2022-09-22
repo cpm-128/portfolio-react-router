@@ -6,6 +6,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Cycling from './pages/Cycling';
 
 function PortfolioContainer() {
 
@@ -20,6 +21,7 @@ function PortfolioContainer() {
             case 'Portfolio': return <Portfolio />
             case 'Contact': return <Contact />
             case 'Resume': return <Resume />
+            case 'Cycling': return <Cycling />
             default : return <About />
         }
     }
