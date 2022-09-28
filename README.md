@@ -97,7 +97,7 @@ Colleen Maher is a front-end web developer with a background in marketing, opera
 
 Trained at UNC Chapel Hill to earn a Professional Certificate in full-stack web development. Newly developed skills include JavaScript, managing databases, responsive web design, and following the Model-View-Controller paradigm. I am an organized and detail-oriented coder wanting to create and contribute to improved user-experiences and database management in an increasingly digital world. Strengths in creativity, teamwork, and building projects from ideation to execution.
 
-<a href="https://gist.github.com/cpm-128" target="_blank">GitHub Profile</a>
+<a href="https://github.com/cpm-128" target="_blank">GitHub Profile</a>
 
 ## License
 MIT License
