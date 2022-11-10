@@ -30,6 +30,14 @@ function Portfolio() {
             repo: 'https://github.com/cpm-128/deep-thoughts'
         },
         {
+            title: 'Employee Tracker',
+            type: 'MySQL',
+            image: require('../../assets/images/projects/employee-tracker.png'),
+            description: 'A command-line application that manages a companys employee database using Node.js, Inquirer, and MySQL.',
+            deployed: 'https://drive.google.com/file/d/11XcfbfJ1694hg6FKGiZGUbNXT_4iEfTG/view',
+            repo: 'https://github.com/cpm-128/employee-tracker'
+        },
+        {
             title: 'Team Profile Generator',
             type: 'OOP & node.js',
             image: require('../../assets/images/projects/team-profile-generator-webpage.png'),
