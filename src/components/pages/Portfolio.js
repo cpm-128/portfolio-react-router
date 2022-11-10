@@ -94,6 +94,14 @@ function Portfolio() {
             repo: 'https://github.com/cpm-128/task-manager'
         },
         {
+            title: 'Password Generator',
+            type: 'JavaScript',
+            image: require('../../assets/images/projects/password-generator.png'),
+            description: 'A JavaScript web application to generate a random password based on user-selected criteria.',
+            deployed: 'https://cpm-128.github.io/password-generator/',
+            repo: 'https://github.com/cpm-128/password-generator'
+        },
+        {
             title: 'Portfolio',
             type: 'HTML/CSS',
             image: require('../../assets/images/projects/portfolio-img.png'),
