@@ -30,6 +30,14 @@ function Portfolio() {
             repo: 'https://github.com/cpm-128/deep-thoughts'
         },
         {
+            title: 'Ecommerce Backend',
+            type: 'ORM & MySQL',
+            image: require('../../assets/images/projects/ecomm-backend.png'),
+            description: 'The back end for an e-commerce site built from a working Express.js API and configured it to use Sequelize to interact with a MySQL database.',
+            deployed: 'https://drive.google.com/file/d/1R1jbylcUV1iugMlRzCRJhJWrRMHdGSEi/view',
+            repo: 'https://github.com/cpm-128/ecomm-backend'
+        },
+        {
             title: 'Employee Tracker',
             type: 'MySQL',
             image: require('../../assets/images/projects/employee-tracker.png'),
