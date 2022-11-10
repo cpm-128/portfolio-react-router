@@ -30,6 +30,14 @@ function Portfolio() {
             repo: 'https://github.com/cpm-128/deep-thoughts'
         },
         {
+            title: 'Team Profile Generator',
+            type: 'OOP & node.js',
+            image: require('../../assets/images/projects/team-profile-generator-webpage.png'),
+            description: 'A Node.js command-line application that accepts uers input and generates an HTML webpage.',
+            deployed: 'https://drive.google.com/file/d/1wpwMjsmf8UXjHD7nRdHcQpE38q-xi-CJ/view',
+            repo: 'https://github.com/cpm-128/team-profile-generator'
+        },
+        {
             title: 'ReadMe Generator',
             type: 'node.js',
             image: require('../../assets/images/projects/readme-generator.png'),
