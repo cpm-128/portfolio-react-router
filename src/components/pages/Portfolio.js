@@ -25,7 +25,7 @@ function Portfolio() {
             title: 'Deep Thoughts',
             type: 'MERN',
             image: require('../../assets/images/projects/deep-thoughts.png'),
-            description: 'A multipage social media application built using the MERN stack.',
+            description: 'A multipage social media application built using the MERN stack (MongoDB, Express, React, Node).',
             deployed: 'https://murmuring-bastion-58732.herokuapp.com/',
             repo: 'https://github.com/cpm-128/deep-thoughts'
         },
