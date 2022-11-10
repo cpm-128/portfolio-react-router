@@ -30,6 +30,14 @@ function Portfolio() {
             repo: 'https://github.com/cpm-128/deep-thoughts'
         },
         {
+            title: 'ReadMe Generator',
+            type: 'node.js',
+            image: require('../../assets/images/projects/readme-generator.png'),
+            description: 'A comand-line application that dynamically generates a professional README.md file from user input.',
+            deployed: 'https://drive.google.com/file/d/1hvIpOihKkD4UPbYJUsXNrN3be-A1KiOb/view',
+            repo: 'https://github.com/cpm-128/readme-generator'
+        },
+        {
             title: 'Investment Portfolio',
             type: 'full stack team project',
             image: require('../../assets/images/projects/investment-portfolio-dashboard.png'),
