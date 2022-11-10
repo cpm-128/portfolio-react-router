@@ -15,13 +15,17 @@ function Resume() {
 
     const [backendProficiencies] = useState([
         'APIs',
-        'Node',
-        'Express',
+        'Node.js',
+        'Express.js',
+        'SQL',
         'MySQL',
+        'NoSQL',
+        'Object Relational Mapping',
+        'Object Oriented Programming',
         'Sequelize',
         'MongoDB',
         'Mongoose',
-        'REST',
+        'REST APIs',
         'GraphQL'
     ])
 
