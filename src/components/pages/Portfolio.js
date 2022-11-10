@@ -30,6 +30,14 @@ function Portfolio() {
             repo: 'https://github.com/cpm-128/deep-thoughts'
         },
         {
+            title: 'Social Network API',
+            type: 'NoSQL',
+            image: require('../../assets/images/projects/social-network-api.png'),
+            description: 'An API for a social network web application. Utilizes Express.js for routing, a MongoDB database, and the Mongoose ODM.',
+            deployed: 'https://drive.google.com/file/d/1VUABkrLx8SeNxgQ5ebhyHdP6DFEFhpC0/view',
+            repo: 'https://github.com/cpm-128/social-network-api'
+        },
+        {
             title: 'Ecommerce Backend',
             type: 'ORM & MySQL',
             image: require('../../assets/images/projects/ecomm-backend.png'),
