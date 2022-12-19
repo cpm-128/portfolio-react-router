@@ -34,7 +34,7 @@ function Resume() {
 
             <h2 className='padding-top-20px'>RESUME</h2>
 
-            <a href='https://docs.google.com/document/d/1Os-AhB34JOiGA0scCg0NLdAz1jedzayccGXgS6Q7OGI/edit?usp=sharing' target='_blank'>
+            <a href='https://drive.google.com/file/d/1qANtEMIB5rxBSloFJTTvOcDNCjuZcE41/view?usp=sharing' target='_blank'>
                 <button className='resume-btn'>Download technical resume</button>
             </a>
 
