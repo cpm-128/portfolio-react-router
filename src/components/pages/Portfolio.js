@@ -74,7 +74,7 @@ function Portfolio() {
             type: 'full stack team project',
             image: require('../../assets/images/projects/investment-portfolio-dashboard.png'),
             description: 'Interactive front-end project with team collaboration from project idea through to execution.',
-            deployed: 'https://damp-plateau-16490.herokuapp.com/',
+            deployed: 'https://cpm-128.github.io/investment-portfolio-dashboard/',
             repo: 'https://github.com/cpm-128/investment-portfolio-dashboard'
         },
         {
