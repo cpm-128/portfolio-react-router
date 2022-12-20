@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// TODO: 1. update <a href>... to <Link to=''></Link> 2. Confirm pathing when live..?
 function NavTabs({ currentPage, handlePageChange }) {
     return (
         <nav>
