@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
@@ -8,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* ABOUT */}
             <li className='nav-item'>
-                <a href='/about'
+                <Link to='/about'
                     onClick={() => handlePageChange('About')}
                     className={currentPage === 'About'
                         ? 'nav-link active'
@@ -16,12 +18,12 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                 >
                     About
-                </a>
+                </Link>
             </li>
 
             {/* PORTFOLIO */}
             <li className='nav-item'>
-                <a href='/portfolio'
+                <Link to='/portfolio'
                     onClick={() => handlePageChange('Portfolio')}
                     className={currentPage === 'Portfolio'
                         ? 'nav-link active'
@@ -29,12 +31,12 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                 >
                     Portfolio
-                </a>
+                </Link>
             </li>
 
             {/* CONTACT */}
             <li className='nav-item'>
-                <a href='/contact'
+                <Link to='/contact'
                     onClick={() => handlePageChange('Contact')}
                     className={currentPage === 'Contact'
                         ? 'nav-link active'
@@ -42,12 +44,12 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                 >
                     Contact
-                </a>
+                </Link>
             </li>
 
             {/* RESUME */}
             <li className='nav-item'>
-                <a href='/resume'
+                <Link to='/resume'
                     onClick={() => handlePageChange('Resume')}
                     className={currentPage === 'Resume'
                         ? 'nav-link active'
@@ -55,12 +57,12 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                 >
                     Resume
-                </a>
+                </Link>
             </li>
 
             {/* CYCLING */}
             <li className='nav-item'>
-                <a href='/cycling'
+                <Link to='/cycling'
                     onClick={() => handlePageChange('Cycling')}
                     className={currentPage === 'Cycling'
                         ? 'nav-link active'
@@ -68,7 +70,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                 >
                     Cycling
-                </a>
+                </Link>
             </li>
 
         </ul>
