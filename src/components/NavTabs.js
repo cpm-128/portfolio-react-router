@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // TODO: 1. update <a href>... to <Link to=''></Link> 2. Confirm pathing when live..?
 function NavTabs({ currentPage, handlePageChange }) {
@@ -9,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* ABOUT */}
             <li className='nav-item'>
-                <a href='/portfolio-react-router/about'
+                <Link to='/about'
                     onClick={() => handlePageChange('About')}
                     className={currentPage === 'About'
                         ? 'nav-link active'
@@ -17,12 +18,12 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                 >
                     About
-                </a>
+                </Link>
             </li>
 
             {/* PORTFOLIO */}
             <li className='nav-item'>
-                <a href='/portfolio-react-router/portfolio'
+                <Link to='/portfolio-react-router/portfolio'
                     onClick={() => handlePageChange('Portfolio')}
                     className={currentPage === 'Portfolio'
                         ? 'nav-link active'
@@ -30,12 +31,12 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                 >
                     Portfolio
-                </a>
+                </Link>
             </li>
 
             {/* CONTACT */}
             <li className='nav-item'>
-                <a href='/portfolio-react-router/contact'
+                <Link to='/portfolio-react-router/contact'
                     onClick={() => handlePageChange('Contact')}
                     className={currentPage === 'Contact'
                         ? 'nav-link active'
@@ -43,12 +44,12 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                 >
                     Contact
-                </a>
+                </Link>
             </li>
 
             {/* RESUME */}
             <li className='nav-item'>
-                <a href='/portfolio-react-router/resume'
+                <Link to='/portfolio-react-router/resume'
                     onClick={() => handlePageChange('Resume')}
                     className={currentPage === 'Resume'
                         ? 'nav-link active'
@@ -56,12 +57,12 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                 >
                     Resume
-                </a>
+                </Link>
             </li>
 
             {/* CYCLING */}
             <li className='nav-item'>
-                <a href='/portfolio-react-router/cycling'
+                <Link to='/portfolio-react-router/cycling'
                     onClick={() => handlePageChange('Cycling')}
                     className={currentPage === 'Cycling'
                         ? 'nav-link active'
@@ -69,7 +70,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     }
                 >
                     Cycling
-                </a>
+                </Link>
             </li>
 
         </ul>

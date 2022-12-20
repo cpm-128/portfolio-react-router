@@ -6,7 +6,9 @@ import PortfolioContainer from './components/PortfolioContainer';
 // vdom rendering
 function App() {
   return (
-    <PortfolioContainer />
+    <div>
+      <PortfolioContainer />
+    </div>
   );
 }
 
