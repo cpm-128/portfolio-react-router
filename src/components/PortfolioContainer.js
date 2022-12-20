@@ -14,47 +14,47 @@ import Cycling from './pages/Cycling';
 function PortfolioContainer() {
 
     return (
-        <div className='portfolio-container d-flex flex-column min-vh-100'>
-        <NavTabs />
-        <Header />
-
         <Router>
-            <Routes>
-                {/* index */}
-                <Route
-                    path='/'
-                    element={<About />}
-                />
-                {/* About */}
-                <Route
-                    path='/about'
-                    element={<About />}
-                />
-                {/* Portfolio */}
-                <Route
-                    path='/portfolio'
-                    element={<Portfolio />}
-                />
-                {/* Contact */}
-                <Route
-                    path='/contact'
-                    element={<Contact />}
-                />
-                {/* Resume */}
-                <Route
-                    path='/resume'
-                    element={<Resume />}
-                />
-                {/* Cycling */}
-                <Route
-                    path='/cycling'
-                    element={<Cycling />}
-                />
-            </Routes>
-        </Router>
+            <div className='portfolio-container d-flex flex-column min-vh-100'>
+                <NavTabs />
+                <Header />
 
-        <Footer />
-        </div>
+                <Routes>
+                    {/* index */}
+                    <Route
+                        path='/'
+                        element={<About />}
+                    />
+                    {/* About */}
+                    <Route
+                        path='/about'
+                        element={<About />}
+                    />
+                    {/* Portfolio */}
+                    <Route
+                        path='/portfolio'
+                        element={<Portfolio />}
+                    />
+                    {/* Contact */}
+                    <Route
+                        path='/contact'
+                        element={<Contact />}
+                    />
+                    {/* Resume */}
+                    <Route
+                        path='/resume'
+                        element={<Resume />}
+                    />
+                    {/* Cycling */}
+                    <Route
+                        path='/cycling'
+                        element={<Cycling />}
+                    />
+                </Routes>
+
+                <Footer />
+            </div>
+        </Router>
     )
 
 };
