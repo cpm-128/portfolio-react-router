@@ -22,32 +22,32 @@ function PortfolioContainer() {
             <Routes>
                 {/* index */}
                 <Route
-                    path='/'
+                    path='/portfolio-react-router'
                     element={<About />}
                 />
                 {/* About */}
                 <Route
-                    path='/about'
+                    path='portfolio-react-router/about'
                     element={<About />}
                 />
                 {/* Portfolio */}
                 <Route
-                    path="/portfolio"
+                    path="portfolio-react-router/portfolio"
                     element={<Portfolio />}
                 />
                 {/* Contact */}
                 <Route
-                    path="/contact"
+                    path="portfolio-react-router/contact"
                     element={<Contact />}
                 />
                 {/* Resume */}
                 <Route
-                    path="/resume"
+                    path="portfolio-react-router/resume"
                     element={<Resume />}
                 />
                 {/* Cycling */}
                 <Route
-                    path="/cycling"
+                    path="portfolio-react-router/cycling"
                     element={<Cycling />}
                 />
             </Routes>
