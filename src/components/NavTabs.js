@@ -9,7 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* ABOUT */}
             <li className='nav-item'>
-                <a href='/about'
+                <a href='/portfolio-react-router/about'
                     onClick={() => handlePageChange('About')}
                     className={currentPage === 'About'
                         ? 'nav-link active'
@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* PORTFOLIO */}
             <li className='nav-item'>
-                <a href='/portfolio'
+                <a href='/portfolio-react-router/portfolio'
                     onClick={() => handlePageChange('Portfolio')}
                     className={currentPage === 'Portfolio'
                         ? 'nav-link active'
@@ -35,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* CONTACT */}
             <li className='nav-item'>
-                <a href='/contact'
+                <a href='/portfolio-react-router/contact'
                     onClick={() => handlePageChange('Contact')}
                     className={currentPage === 'Contact'
                         ? 'nav-link active'
@@ -48,7 +48,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* RESUME */}
             <li className='nav-item'>
-                <a href='/resume'
+                <a href='/portfolio-react-router/resume'
                     onClick={() => handlePageChange('Resume')}
                     className={currentPage === 'Resume'
                         ? 'nav-link active'
@@ -61,7 +61,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* CYCLING */}
             <li className='nav-item'>
-                <a href='/cycling'
+                <a href='/portfolio-react-router/cycling'
                     onClick={() => handlePageChange('Cycling')}
                     className={currentPage === 'Cycling'
                         ? 'nav-link active'
