@@ -266,3 +266,15 @@ nav {
 .font-size-1halfrem {
     font-size: 1.45rem;
 }
+
+/* MEDIA QUERY FOR ABOUT/CYCLING HERO SIZING TO BE HARDCODED ON SMALLER SCREENS */
+@media screen and (max-width: 575px) {
+    .hero {
+        padding: 150px 25px 200px 110px;
+    }
+
+    .hero h2 {
+        margin: 5px 15px 5px 0;
+        font-size: 1.75rem;
+    }
+}
