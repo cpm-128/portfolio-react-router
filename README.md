@@ -5,7 +5,7 @@
 A portfolio of my web development works to share with fellow developers, collaborate on future projects, apply for jobs, and showcase for freelancing. This portfolio is built using React.
 
 ### User Story
-AS AN employer looking for candidates with experience building single-page applications,<br>
+AS AN employer looking for candidates with experience building multi-page applications,<br>
 I WANT to view a potential employee's deployed React portfolio of work samples<br>
 SO THAT I can assess whether they're a good candidate for an open position.
 
@@ -20,7 +20,7 @@ SO THAT I can assess whether they're a good candidate for an open position.
 
 
 ## Acceptance Criteria
-GIVEN a single-page application portfolio for a web developer . . .
+GIVEN a multi-page application portfolio for a web developer . . .
 
 WHEN I load the portfolio<br>
 THEN I am presented with a page containing a header, a section for content, and a footer
@@ -37,7 +37,7 @@ THEN I am presented with the titles:
 and the title corresponding to the current section is highlighted
 
 WHEN I click on a navigation title<br>
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+THEN I am presented with the corresponding section below the navigation and the page loads with the correct URL slug
 
 WHEN I load the portfolio the first time<br>
 THEN the About Me title and section are selected by default
@@ -71,6 +71,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ### Tools and Required Packages
 - React App
 - Bootstrap
+- React Router Dom
 
 ## Usage
 To display a portfolio of work, contact information, and biography for a web developer professional to share with other industry professionals for collaboration and/or hiring purposes.
@@ -79,23 +80,23 @@ To display a portfolio of work, contact information, and biography for a web dev
 <img src="./src/assets/images/mockups/mockup.gif">
 
 ## Deployed Application
-Deployed url: <a href='https://cpm-128.github.io/portfolio-react/' target='_blank'>https://cpm-128.github.io/portfolio-react/</a><br>
-Repo url: <a href='https://github.com/cpm-128/portfolio-react' target='_blank'>https://github.com/cpm-128/portfolio-react</a>
+Deployed url: <a href='' target='_blank'>TBD</a><br>
+Repo url: <a href='https://github.com/cpm-128/portfolio-react-router' target='_blank'>https://github.com/cpm-128/portfolio-react-router</a>
 
 ### Screencapture
 About homepage<br>
-<img src='./src/assets/images/deployed/ABOUT_react-portfolio.png'>
+<!-- <img src='./src/assets/images/deployed/ABOUT_react-portfolio.png'> -->
 
 Portfolio page component<br>
-<img src='./src/assets/images/deployed/PORTFOLIO_react-portfolio.png.png'>
+<!-- <img src='./src/assets/images/deployed/PORTFOLIO_react-portfolio.png.png'> -->
 
 ## Contributors
 Colleen Maher
 
 ### Author
-Colleen Maher is a full-stack web developer with a background in marketing, operations, and project management.
+Colleen Maher is a full stack web developer with a background in marketing, operations, and project management.
 
-Trained at UNC Chapel Hill to earn a Professional Certificate in full-stack web development. Newly developed skills include JavaScript, managing databases, responsive web design, and following the Model-View-Controller paradigm. I am an organized and detail-oriented coder wanting to create and contribute to improved user-experiences and database management in an increasingly digital world. Strengths in creativity, teamwork, and building projects from ideation to execution.
+Trained at UNC Chapel Hill to earn a Professional Certificate in full- tack web development and graduated with a 4.0. Newly developed skills include JavaScript, managing databases, responsive web design, and following the Model-View-Controller paradigm. I am an organized and detail-oriented coder wanting to create and contribute to improved user-experiences and database management in an increasingly digital world. Strengths in creativity, teamwork, and building projects from ideation to execution.
 
 <a href="https://github.com/cpm-128" target="_blank">GitHub Profile</a>
 
