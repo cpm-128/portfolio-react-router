@@ -11,11 +11,10 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Cycling from './pages/Cycling';
 
-// TODO: when deployed on custom domain, remove repo name from pathing
 function PortfolioContainer() {
 
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <div className='portfolio-container d-flex flex-column min-vh-100'>
                 <NavTabs />
                 <Header />
@@ -26,34 +25,34 @@ function PortfolioContainer() {
                         exact path='/'
                         element={<About />}
                     />
-                    {/* repo name */}
+                    {/* repo name
                     <Route
                         exact path='/portfolio-react-router'
                         element={<About />}
-                    />
+                    /> */}
                     {/* About */}
                     <Route
-                        exact path='/portfolio-react-router/about'
+                        path='/about'
                         element={<About />}
                     />
                     {/* Portfolio */}
                     <Route
-                        exact path='/portfolio-react-router/portfolio'
+                        path='/portfolio'
                         element={<Portfolio />}
                     />
                     {/* Contact */}
                     <Route
-                        exact path='/portfolio-react-router/contact'
+                        path='/contact'
                         element={<Contact />}
                     />
                     {/* Resume */}
                     <Route
-                        exact path='/portfolio-react-router/resume'
+                        path='/resume'
                         element={<Resume />}
                     />
                     {/* Cycling */}
                     <Route
-                        exact path='/portfolio-react-router/cycling'
+                        path='/cycling'
                         element={<Cycling />}
                     />
                 </Routes>
