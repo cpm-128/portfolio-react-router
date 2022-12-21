@@ -14,6 +14,7 @@ import Cycling from './pages/Cycling';
 function PortfolioContainer() {
 
     return (
+        // the basename will keep the entire homepage url, even with slugs
         <Router basename={process.env.PUBLIC_URL}>
             <div className='portfolio-container d-flex flex-column min-vh-100'>
                 <NavTabs />
