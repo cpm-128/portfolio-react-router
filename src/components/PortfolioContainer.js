@@ -33,27 +33,27 @@ function PortfolioContainer() {
                     />
                     {/* About */}
                     <Route
-                        path='/portfolio-react-router/about'
+                        exact path='/portfolio-react-router/about'
                         element={<About />}
                     />
                     {/* Portfolio */}
                     <Route
-                        path='/portfolio-react-router/portfolio'
+                        exact path='/portfolio-react-router/portfolio'
                         element={<Portfolio />}
                     />
                     {/* Contact */}
                     <Route
-                        path='/portfolio-react-router/contact'
+                        exact path='/portfolio-react-router/contact'
                         element={<Contact />}
                     />
                     {/* Resume */}
                     <Route
-                        path='/portfolio-react-router/resume'
+                        exact path='/portfolio-react-router/resume'
                         element={<Resume />}
                     />
                     {/* Cycling */}
                     <Route
-                        path='/portfolio-react-router/cycling'
+                        exact path='/portfolio-react-router/cycling'
                         element={<Cycling />}
                     />
                 </Routes>
