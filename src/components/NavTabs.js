@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// TODO: 1. update <a href>... to <Link to=''></Link> 2. Confirm pathing when live..?
+// TODO: when deployed on custom domain, remove repo name from pathing
 function NavTabs({ currentPage, handlePageChange }) {
     return (
         <nav>
@@ -10,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* ABOUT */}
             <li className='nav-item'>
-                <Link to='/about'
+                <Link to='/portfolio-react-router/about'
                     onClick={() => handlePageChange('About')}
                     className={currentPage === 'About'
                         ? 'nav-link active'
@@ -23,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* PORTFOLIO */}
             <li className='nav-item'>
-                <Link to='/portfolio'
+                <Link to='/portfolio-react-router/portfolio'
                     onClick={() => handlePageChange('Portfolio')}
                     className={currentPage === 'Portfolio'
                         ? 'nav-link active'
@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* CONTACT */}
             <li className='nav-item'>
-                <Link to='/contact'
+                <Link to='/portfolio-react-router/contact'
                     onClick={() => handlePageChange('Contact')}
                     className={currentPage === 'Contact'
                         ? 'nav-link active'
@@ -49,7 +49,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* RESUME */}
             <li className='nav-item'>
-                <Link to='/resume'
+                <Link to='/portfolio-react-router/resume'
                     onClick={() => handlePageChange('Resume')}
                     className={currentPage === 'Resume'
                         ? 'nav-link active'
@@ -62,7 +62,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             {/* CYCLING */}
             <li className='nav-item'>
-                <Link to='/cycling'
+                <Link to='/portfolio-react-router/cycling'
                     onClick={() => handlePageChange('Cycling')}
                     className={currentPage === 'Cycling'
                         ? 'nav-link active'
