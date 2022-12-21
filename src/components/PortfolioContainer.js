@@ -22,12 +22,12 @@ function PortfolioContainer() {
                 <Routes>
                     {/* index */}
                     <Route
-                        path='/'
+                        exact path='/'
                         element={<About />}
                     />
                     {/* repo name */}
                     <Route
-                        path='/portfolio-react-router'
+                        exact path='/portfolio-react-router'
                         element={<About />}
                     />
                     {/* About */}
